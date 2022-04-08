@@ -1,0 +1,51 @@
+.main-layout{
+    
+    .ant-layout-sider{
+        min-width: 250px!important;
+    }
+    .ant-layout-sider-dark{
+
+    }
+    .ant-layout-sider-collapsed{
+        
+    min-width: 70px!important;
+    }
+
+    .ant-menu-submenu > .ant-menu {
+        min-height: 63vh;
+        max-height: 63vh;
+        overflow: auto;
+    }
+    .ant-menu-submenu > .ant-menu::-webkit-scrollbar-track{
+        background: #000c17; 
+    }
+
+    .ant-menu-submenu > .ant-menu::-webkit-scrollbar {
+        width: 5px;
+    }
+
+    .ant-menu-submenu > .ant-menu::-webkit-scrollbar-thumb {
+        background: rgb(88, 88, 88); 
+        border-radius: 25px;
+        
+    }
+
+    .log-online{
+        color: green;
+        font-size: 8px;
+        margin-bottom: 3px;
+        margin-right: 5px;
+    }
+    .log-offline{
+        color: rgba(150, 150, 150, 0.514);
+        font-size: 8px;
+        margin-bottom: 3px;
+        margin-right: 5px;
+    }
+    .user-type{
+        color: rgba(128, 128, 128, 0.63);
+        font-size: 10px;
+        margin-left: 5px;
+    }
+
+}

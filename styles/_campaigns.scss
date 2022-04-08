@@ -1,0 +1,42 @@
+.campaigns{
+    .modify-red{
+        margin-left: 4px;
+        margin-right: 4px;
+        font-size: 19px;
+        cursor: pointer;
+    }
+    .modify-red:hover{
+        color: brown;
+    }
+    .modify-green{
+        margin-left: 4px;
+        margin-right: 4px;
+        font-size: 19px;
+        cursor: pointer;
+    }
+    .modify-green:hover{
+        color: rgb(29, 134, 82);
+    }
+    .steps{
+        cursor: pointer;
+    }
+    .steps:hover{
+        color: cadetblue;
+    }
+    .hover-link{
+        cursor: pointer;
+    }
+    .hover-link:hover{
+        transition-duration: 200ms;
+        background-color: rgba(100, 171, 219, 0.356);
+    }
+    .selected-link{
+        cursor: pointer;
+        transition-duration: 200ms;
+        background-color: rgba(100, 171, 219, 0.356);
+    }
+    .accepted{
+        background-color: rgba(28, 156, 92, 0.329);
+        border-bottom: 1px solid white;
+    }
+}

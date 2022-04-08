@@ -1,0 +1,71 @@
+.client_styles{
+
+    .client_option{
+        font-weight: 600;
+        margin-left: 4px;
+        margin-right: 4px;
+        cursor: pointer;
+    }
+    .client_option:hover{
+        color: rgb(32, 105, 201);
+    }
+    .client_option_red{
+        font-weight: 600;
+        margin-left: 4px;
+        margin-right: 4px;
+        cursor: pointer;
+    }
+    .client_option_red:hover{
+        color: rgb(216, 55, 33);
+    }
+    .removeBtn{
+        cursor: pointer;
+        color: brown;
+    }
+    .modify-edit{
+        position: relative;
+        bottom: 2px;
+        margin-left: 4px;
+        margin-right: 4px;
+        font-size: 18px;
+    }
+    .modify-edit:hover{
+        color: rgb(32, 169, 211);
+    }
+    .modify-red{
+        position: relative;
+        bottom: 3px;
+        margin-left: 7px;
+        margin-right: 4px;
+        font-size: 18px;
+    }
+    .modify-red:hover{
+        color: rgb(216, 55, 33);
+        position: relative;
+        
+    }
+    .modify-info{
+        position: relative;
+        bottom: 3px;
+        margin-left: 6px;
+        margin-right: 4px;
+        font-size: 18px;
+    }
+    .modify-info:hover{
+        color: rgb(224, 172, 30);
+        position: relative;
+        bottom: 3px;
+    }
+    .modify-asign-camp{
+        cursor: pointer;
+        position: relative;
+        bottom: 3px;
+        margin-left: 6px;
+        margin-right: 4px;
+        font-size: 18px;
+    }
+    .modify-asign-camp:hover{
+        color: cadetblue;
+    }
+    
+}

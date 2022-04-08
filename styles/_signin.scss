@@ -1,0 +1,27 @@
+.signin_styles{
+
+    .box{
+        border-radius: 7px 7px 7px 7px;
+        -webkit-border-radius: 7px 7px 7px 7px;
+        -moz-border-radius: 7px 7px 7px 7px;
+        border: 1px solid #cfcdcd;
+        background-color: rgb(241, 241, 241);
+        box-shadow: -1px 10px 27px -13px rgba(0,0,0,0.75);
+        -webkit-box-shadow: -1px 10px 27px -13px rgba(0,0,0,0.75);
+        -moz-box-shadow: -1px 10px 27px -13px rgba(0,0,0,0.75);
+    }
+    .bg{
+        background-image: url("../public/login_bg.png");
+
+        /* Full height */
+        height: 100%; 
+
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .login-icon{
+        font-size: 90px;
+    }
+}
