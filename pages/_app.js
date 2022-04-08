@@ -11,6 +11,7 @@ import Router, { useRouter  } from 'next/router';
 import 'aos/dist/aos.css'
 
 
+
 function MyApp({ Component, pageProps:{ session, ...pageProps }, }) {
 
   const [loading, setLoading] = useState(false);
